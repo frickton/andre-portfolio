@@ -1,50 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 760" font-family="Helvetica Neue, Arial, sans-serif">
-  <rect width="1600" height="760" fill="#fafafa"/>
-  <rect x="0.5" y="0.5" width="1599" height="759" fill="none" stroke="#e2e2e2"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1760 920" font-family="Helvetica Neue, Arial, sans-serif">
+  <rect width="1760" height="920" fill="#fcfcfc"/>
+  <rect x="0.5" y="0.5" width="1759" height="919" fill="none" stroke="#e6e6e6"/>
 
-  <text x="60" y="72" font-size="22" letter-spacing="2" fill="#8a8a8a">AQX · SAMPLE VERDICTS</text>
-  <line x1="60" y1="96" x2="1540" y2="96" stroke="#e2e2e2" stroke-width="1"/>
+  <text x="70" y="76" font-size="20" letter-spacing="2.5" fill="#9a9a9a">AQX · SAMPLE VERDICTS</text>
+  <line x1="70" y1="102" x2="1690" y2="102" stroke="#e6e6e6" stroke-width="1"/>
 
-  <!-- Row template: y start 150, row height 92 -->
+  <!-- ===== LEFT COLUMN (x: 70–830) ===== -->
 
-  <!-- Row 1 -->
-  <text x="60" y="182" font-size="30" fill="#171717" font-weight="600">Instant Pix Transfer</text>
-  <text x="60" y="212" font-size="18" fill="#9a9a9a">14/17 adherent · functional gate clear</text>
-  <rect x="1440" y="150" width="100" height="72" rx="12" fill="#e7f5ec"/>
-  <text x="1490" y="198" font-size="40" font-weight="700" fill="#1f9d55" text-anchor="middle">B</text>
+  <!-- Row L1 -->
+  <text x="70" y="182" font-size="22" font-weight="500" fill="#1a1a1a">Transferir com Pix</text>
+  <text x="70" y="208" font-size="22" font-weight="500" fill="#1a1a1a">Imediato via Chave</text>
+  <circle cx="778" cy="185" r="27" fill="none" stroke="#1f9d55" stroke-width="1.5"/>
+  <text x="778" y="194" font-size="24" font-weight="700" fill="#1f9d55" text-anchor="middle">B</text>
+  <line x1="70" y1="240" x2="830" y2="240" stroke="#ededed" stroke-width="1"/>
 
-  <!-- Row 2 -->
-  <line x1="60" y1="242" x2="1540" y2="242" stroke="#eee" stroke-width="1"/>
-  <text x="60" y="284" font-size="30" fill="#171717" font-weight="600">Smart Fees Setup</text>
-  <text x="60" y="314" font-size="18" fill="#9a9a9a">7/17 adherent · 3 criteria unreadable</text>
-  <rect x="1440" y="252" width="100" height="72" rx="12" fill="#fdeeea"/>
-  <text x="1490" y="300" font-size="40" font-weight="700" fill="#c94f3d" text-anchor="middle">E</text>
+  <!-- Row L2 -->
+  <text x="70" y="312" font-size="22" font-weight="500" fill="#1a1a1a">Pagar com Pix, imediato</text>
+  <text x="70" y="338" font-size="22" font-weight="500" fill="#1a1a1a">QR Code e copia e cola</text>
+  <circle cx="778" cy="315" r="27" fill="none" stroke="#1f9d55" stroke-width="1.5"/>
+  <text x="778" y="324" font-size="24" font-weight="700" fill="#1f9d55" text-anchor="middle">B</text>
+  <line x1="70" y1="370" x2="830" y2="370" stroke="#ededed" stroke-width="1"/>
 
-  <!-- Row 3 -->
-  <line x1="60" y1="344" x2="1540" y2="344" stroke="#eee" stroke-width="1"/>
-  <text x="60" y="386" font-size="30" fill="#171717" font-weight="600">Statement / History</text>
-  <text x="60" y="416" font-size="18" fill="#9a9a9a">12/17 adherent · solid differentiation</text>
-  <rect x="1440" y="354" width="100" height="72" rx="12" fill="#f2f2f2"/>
-  <text x="1490" y="402" font-size="40" font-weight="700" fill="#5a5a5a" text-anchor="middle">C</text>
+  <!-- Row L3 -->
+  <text x="70" y="442" font-size="22" font-weight="500" fill="#1a1a1a">Consultar histórico</text>
+  <text x="70" y="468" font-size="22" font-weight="500" fill="#1a1a1a">de transações</text>
+  <circle cx="778" cy="445" r="27" fill="none" stroke="#6b6b6b" stroke-width="1.5"/>
+  <text x="778" y="454" font-size="24" font-weight="700" fill="#6b6b6b" text-anchor="middle">C</text>
+  <line x1="70" y1="500" x2="830" y2="500" stroke="#ededed" stroke-width="1"/>
 
-  <!-- Row 4 -->
-  <line x1="60" y1="446" x2="1540" y2="446" stroke="#eee" stroke-width="1"/>
-  <text x="60" y="488" font-size="30" fill="#171717" font-weight="600">Boleto Payment</text>
-  <text x="60" y="518" font-size="18" fill="#9a9a9a">15/17 adherent · functional gate clear</text>
-  <rect x="1440" y="456" width="100" height="72" rx="12" fill="#e7f5ec"/>
-  <text x="1490" y="504" font-size="40" font-weight="700" fill="#1f9d55" text-anchor="middle">B</text>
+  <!-- Row L4 -->
+  <text x="70" y="572" font-size="22" font-weight="500" fill="#1a1a1a">Consolidado de entradas</text>
+  <text x="70" y="598" font-size="22" font-weight="500" fill="#1a1a1a">em Minhas Finanças</text>
+  <circle cx="778" cy="575" r="27" fill="none" stroke="#c94f3d" stroke-width="1.5"/>
+  <text x="778" y="584" font-size="24" font-weight="700" fill="#c94f3d" text-anchor="middle">E</text>
+  <line x1="70" y1="630" x2="830" y2="630" stroke="#ededed" stroke-width="1"/>
 
-  <!-- Row 5 -->
-  <line x1="60" y1="548" x2="1540" y2="548" stroke="#eee" stroke-width="1"/>
-  <text x="60" y="590" font-size="30" fill="#171717" font-weight="600">Working Capital Request</text>
-  <text x="60" y="620" font-size="18" fill="#9a9a9a">17/17 adherent · every criterion passed</text>
-  <rect x="1440" y="558" width="100" height="72" rx="12" fill="#d9f0e2"/>
-  <text x="1490" y="606" font-size="40" font-weight="700" fill="#177a43" text-anchor="middle">A</text>
+  <!-- Row L5 -->
+  <text x="70" y="702" font-size="22" font-weight="500" fill="#1a1a1a">Pagar boleto</text>
+  <circle cx="778" cy="695" r="27" fill="none" stroke="#6b6b6b" stroke-width="1.5"/>
+  <text x="778" y="704" font-size="24" font-weight="700" fill="#6b6b6b" text-anchor="middle">C</text>
 
-  <!-- Row 6 -->
-  <line x1="60" y1="650" x2="1540" y2="650" stroke="#eee" stroke-width="1"/>
-  <text x="60" y="692" font-size="30" fill="#171717" font-weight="600">Onboarding · First Access</text>
-  <text x="60" y="722" font-size="18" fill="#9a9a9a">10/17 adherent · little differentiation</text>
-  <rect x="1440" y="660" width="100" height="72" rx="12" fill="#fdf3e6"/>
-  <text x="1490" y="708" font-size="40" font-weight="700" fill="#b8791f" text-anchor="middle">D</text>
+  <!-- ===== VERTICAL DIVIDER ===== -->
+  <line x1="880" y1="130" x2="880" y2="800" stroke="#e6e6e6" stroke-width="1"/>
+
+  <!-- ===== RIGHT COLUMN (x: 930–1690), offset half a row down ===== -->
+
+  <!-- Row R1 -->
+  <text x="930" y="247" font-size="22" font-weight="500" fill="#1a1a1a">Consolidado de saídas</text>
+  <text x="930" y="273" font-size="22" font-weight="500" fill="#1a1a1a">em Minhas Finanças</text>
+  <circle cx="1638" cy="250" r="27" fill="none" stroke="#1f9d55" stroke-width="1.5"/>
+  <text x="1638" y="259" font-size="24" font-weight="700" fill="#1f9d55" text-anchor="middle">B</text>
+  <line x1="930" y1="305" x2="1690" y2="305" stroke="#ededed" stroke-width="1"/>
+
+  <!-- Row R2 -->
+  <text x="930" y="377" font-size="22" font-weight="500" fill="#1a1a1a">Agendar pagamento</text>
+  <text x="930" y="403" font-size="22" font-weight="500" fill="#1a1a1a">de boleto</text>
+  <circle cx="1638" cy="380" r="27" fill="none" stroke="#1f9d55" stroke-width="1.5"/>
+  <text x="1638" y="389" font-size="24" font-weight="700" fill="#1f9d55" text-anchor="middle">B</text>
+  <line x1="930" y1="435" x2="1690" y2="435" stroke="#ededed" stroke-width="1"/>
+
+  <!-- Row R3 -->
+  <text x="930" y="507" font-size="22" font-weight="500" fill="#1a1a1a">Criação de link</text>
+  <text x="930" y="533" font-size="22" font-weight="500" fill="#1a1a1a">de pagamento</text>
+  <circle cx="1638" cy="510" r="27" fill="none" stroke="#6b6b6b" stroke-width="1.5"/>
+  <text x="1638" y="519" font-size="24" font-weight="700" fill="#6b6b6b" text-anchor="middle">C</text>
+  <line x1="930" y1="565" x2="1690" y2="565" stroke="#ededed" stroke-width="1"/>
+
+  <!-- Row R4 -->
+  <text x="930" y="637" font-size="22" font-weight="500" fill="#1a1a1a">Reserva, resgatar</text>
+  <text x="930" y="663" font-size="22" font-weight="500" fill="#1a1a1a">dinheiro</text>
+  <circle cx="1638" cy="640" r="27" fill="none" stroke="#177a43" stroke-width="1.5"/>
+  <text x="1638" y="649" font-size="24" font-weight="700" fill="#177a43" text-anchor="middle">A</text>
+  <line x1="930" y1="695" x2="1690" y2="695" stroke="#ededed" stroke-width="1"/>
+
+  <!-- Row R5 -->
+  <text x="930" y="767" font-size="22" font-weight="500" fill="#1a1a1a">Reserva, guardar</text>
+  <text x="930" y="793" font-size="22" font-weight="500" fill="#1a1a1a">por recebimento</text>
+  <circle cx="1638" cy="770" r="27" fill="none" stroke="#177a43" stroke-width="1.5"/>
+  <text x="1638" y="779" font-size="24" font-weight="700" fill="#177a43" text-anchor="middle">A</text>
 </svg>
