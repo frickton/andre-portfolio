@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 760" font-family="Helvetica Neue, Arial, sans-serif">
+  <rect width="1600" height="760" fill="#fafafa"/>
+  <rect x="0.5" y="0.5" width="1599" height="759" fill="none" stroke="#e2e2e2"/>
+
+  <text x="60" y="72" font-size="22" letter-spacing="2" fill="#8a8a8a">AQX · SAMPLE VERDICTS</text>
+  <line x1="60" y1="96" x2="1540" y2="96" stroke="#e2e2e2" stroke-width="1"/>
+
+  <!-- Row template: y start 150, row height 92 -->
+
+  <!-- Row 1 -->
+  <text x="60" y="182" font-size="30" fill="#171717" font-weight="600">Instant Pix Transfer</text>
+  <text x="60" y="212" font-size="18" fill="#9a9a9a">14/17 adherent · functional gate clear</text>
+  <rect x="1440" y="150" width="100" height="72" rx="12" fill="#e7f5ec"/>
+  <text x="1490" y="198" font-size="40" font-weight="700" fill="#1f9d55" text-anchor="middle">B</text>
+
+  <!-- Row 2 -->
+  <line x1="60" y1="242" x2="1540" y2="242" stroke="#eee" stroke-width="1"/>
+  <text x="60" y="284" font-size="30" fill="#171717" font-weight="600">Smart Fees Setup</text>
+  <text x="60" y="314" font-size="18" fill="#9a9a9a">7/17 adherent · 3 criteria unreadable</text>
+  <rect x="1440" y="252" width="100" height="72" rx="12" fill="#fdeeea"/>
+  <text x="1490" y="300" font-size="40" font-weight="700" fill="#c94f3d" text-anchor="middle">E</text>
+
+  <!-- Row 3 -->
+  <line x1="60" y1="344" x2="1540" y2="344" stroke="#eee" stroke-width="1"/>
+  <text x="60" y="386" font-size="30" fill="#171717" font-weight="600">Statement / History</text>
+  <text x="60" y="416" font-size="18" fill="#9a9a9a">12/17 adherent · solid differentiation</text>
+  <rect x="1440" y="354" width="100" height="72" rx="12" fill="#f2f2f2"/>
+  <text x="1490" y="402" font-size="40" font-weight="700" fill="#5a5a5a" text-anchor="middle">C</text>
+
+  <!-- Row 4 -->
+  <line x1="60" y1="446" x2="1540" y2="446" stroke="#eee" stroke-width="1"/>
+  <text x="60" y="488" font-size="30" fill="#171717" font-weight="600">Boleto Payment</text>
+  <text x="60" y="518" font-size="18" fill="#9a9a9a">15/17 adherent · functional gate clear</text>
+  <rect x="1440" y="456" width="100" height="72" rx="12" fill="#e7f5ec"/>
+  <text x="1490" y="504" font-size="40" font-weight="700" fill="#1f9d55" text-anchor="middle">B</text>
+
+  <!-- Row 5 -->
+  <line x1="60" y1="548" x2="1540" y2="548" stroke="#eee" stroke-width="1"/>
+  <text x="60" y="590" font-size="30" fill="#171717" font-weight="600">Working Capital Request</text>
+  <text x="60" y="620" font-size="18" fill="#9a9a9a">17/17 adherent · every criterion passed</text>
+  <rect x="1440" y="558" width="100" height="72" rx="12" fill="#d9f0e2"/>
+  <text x="1490" y="606" font-size="40" font-weight="700" fill="#177a43" text-anchor="middle">A</text>
+
+  <!-- Row 6 -->
+  <line x1="60" y1="650" x2="1540" y2="650" stroke="#eee" stroke-width="1"/>
+  <text x="60" y="692" font-size="30" fill="#171717" font-weight="600">Onboarding · First Access</text>
+  <text x="60" y="722" font-size="18" fill="#9a9a9a">10/17 adherent · little differentiation</text>
+  <rect x="1440" y="660" width="100" height="72" rx="12" fill="#fdf3e6"/>
+  <text x="1490" y="708" font-size="40" font-weight="700" fill="#b8791f" text-anchor="middle">D</text>
+</svg>
