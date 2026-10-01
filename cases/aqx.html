@@ -137,68 +137,10 @@
 <script async src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsslider@1/cmsslider.js"></script>
 
 <meta name="robots" content="noindex, nofollow"/>
-<style>
-.page-wrapper { display: none; }
-html.aa-unlocked .page-wrapper { display: block; }
-#aa-gate {
-  position: fixed;
-  inset: 0;
-  z-index: 9999;
-  background: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
-  font-family: Helvetica Neue, Arial, sans-serif;
-}
-html.aa-unlocked #aa-gate { display: none; }
-.aa-gate-box { max-width: 22rem; width: 100%; text-align: center; }
-.aa-gate-box h2 { font-size: 1.4rem; font-weight: 700; margin: 0 0 0.5rem; color: #171717; }
-.aa-gate-box p { color: #6b6b6b; font-size: 0.9rem; margin: 0 0 1.5rem; }
-.aa-gate-box input {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 0.75rem 1rem;
-  border: 1px solid #e2e2e2;
-  border-radius: 0.5rem;
-  font-size: 1rem;
-  margin-bottom: 0.75rem;
-}
-.aa-gate-box button {
-  width: 100%;
-  padding: 0.75rem 1rem;
-  border: none;
-  border-radius: 0.5rem;
-  background: #171717;
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 600;
-  cursor: pointer;
-}
-.aa-gate-error { color: #c94f3d; font-size: 0.85rem; margin-top: 0.75rem; display: none; }
-.aa-gate-error.is-visible { display: block; }
-</style>
+
 
 </head>
 <body>
-<script>
-(function () {
-  if (localStorage.getItem('aa_case_unlocked') === '1') {
-    document.documentElement.classList.add('aa-unlocked');
-  }
-})();
-</script>
-<div id="aa-gate">
-  <div class="aa-gate-box">
-    <h2>This case is password protected</h2>
-    <p>Enter the password to view this case study.</p>
-    <form id="aa-gate-form">
-      <input type="password" id="aa-gate-input" placeholder="Password" autocomplete="off"/>
-      <button type="submit">Unlock</button>
-      <div class="aa-gate-error" id="aa-gate-error">Incorrect password, try again.</div>
-    </form>
-  </div>
-</div>
 <div class="page-wrapper">
 
 <div class="global-styles w-embed"><style>
@@ -501,21 +443,6 @@ margin: 0rem !important;
 <script src="https://cdn.prod.website-files.com/5edbeeae4bc6a5f99a19548b/js/webflow.schunk.f2efb3c5440a81cf.js" type="text/javascript"></script>
 <script src="https://cdn.prod.website-files.com/5edbeeae4bc6a5f99a19548b/js/webflow.schunk.9afe4237ec9ed427.js" type="text/javascript"></script>
 <script src="https://cdn.prod.website-files.com/5edbeeae4bc6a5f99a19548b/js/webflow.c6ae7fa5.0be2558ea61faa87.js" type="text/javascript"></script>
-<script>
-(function () {
-  var form = document.getElementById('aa-gate-form');
-  if (!form) return;
-  form.addEventListener('submit', function (e) {
-    e.preventDefault();
-    var val = document.getElementById('aa-gate-input').value;
-    if (val === 'olg@2026') {
-      localStorage.setItem('aa_case_unlocked', '1');
-      document.documentElement.classList.add('aa-unlocked');
-    } else {
-      document.getElementById('aa-gate-error').classList.add('is-visible');
-    }
-  });
-})();
-</script>
+
 </body>
 </html>

@@ -216,9 +216,13 @@ html.aa-unlocked .aa-lock-overlay { display: none; }
 <body>
 <script>
 (function () {
-  if (localStorage.getItem('aa_case_unlocked') === '1') {
-    document.documentElement.classList.add('aa-unlocked');
-  }
+  fetch('cases/aqx.html', { method: 'HEAD', cache: 'no-store' })
+    .then(function (res) {
+      if (res.ok) {
+        document.documentElement.classList.add('aa-unlocked');
+      }
+    })
+    .catch(function () {});
 })();
 </script>
 <div class="page-wrapper">
